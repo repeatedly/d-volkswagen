@@ -2,6 +2,8 @@
 
 Volkswagen detects when your tests are being run in a CI server, and makes them pass.
 
+[![Build Status](https://travis-ci.org/repeatedly/d-volkswagen.svg?branch = master)](https://travis-ci.org/repeatedly/d-volkswagen)
+
 ## Why?
 
 If you want your software to be adopted by Americans, good tests scores 
