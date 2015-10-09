@@ -1,0 +1,24 @@
+language: d
+
+d:
+  - dmd
+  - gdc
+  - ldc
+
+install:
+
+script:
+  - dub test --compiler=${DC}
+
+branches:
+  only:
+    - master
+
+notifications:
+  email: true
+
+sudo: false
+
+matrix:
+  allow_failures:
+    - d: ldc
